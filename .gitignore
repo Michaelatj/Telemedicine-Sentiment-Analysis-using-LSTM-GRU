@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data: keep data instructions, not raw/processed data
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+
+# Generated artifacts / model weights
+/artifacts/models/*
+!/artifacts/models/.gitkeep
+/artifacts/metrics/*
+!/artifacts/metrics/.gitkeep
+/artifacts/figures/*
+!/artifacts/figures/.gitkeep
+
+# Logs and editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
